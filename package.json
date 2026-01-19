@@ -1,6 +1,6 @@
 {
   "name": "@anthalehq/anthale",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The official TypeScript library for the Anthale API",
   "author": "Anthale <>",
   "types": "dist/index.d.ts",
