@@ -1,6 +1,6 @@
 {
   "name": "anthale-mcp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The official MCP Server for the Anthale API",
   "author": "Anthale <>",
   "types": "dist/index.d.ts",
@@ -8,10 +8,10 @@
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stainless-sdks/anthale-typescript.git",
+    "url": "git+https://github.com/anthalehq/anthale-node.git",
     "directory": "packages/mcp-server"
   },
-  "homepage": "https://github.com/stainless-sdks/anthale-typescript/tree/main/packages/mcp-server#readme",
+  "homepage": "https://github.com/anthalehq/anthale-node/tree/main/packages/mcp-server#readme",
   "license": "Apache-2.0",
   "packageManager": "pnpm@10.24.0",
   "private": false,
