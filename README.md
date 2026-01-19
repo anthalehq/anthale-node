@@ -20,11 +20,8 @@ Use the Anthale MCP Server to enable AI assistants to interact with this API, al
 ## Installation
 
 ```sh
-npm install git+ssh://git@github.com:anthalehq/anthale-node.git
+npm install anthale
 ```
-
-> [!NOTE]
-> Once this package is [published to npm](https://www.stainless.com/docs/guides/publish), this will become: `npm install anthale`
 
 ## Usage
 
