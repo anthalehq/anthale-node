@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.1 (2026-01-19)
+
+Full Changelog: [v0.1.0...v0.1.1](https://github.com/anthalehq/anthale-node/compare/v0.1.0...v0.1.1)
+
+### Build System
+
+* configure environment name for deploying ([2ae49d5](https://github.com/anthalehq/anthale-node/commit/2ae49d5d556ce0d589e09d74988d4934b02a5214))
+
 ## 0.1.0 (2026-01-19)
 
 Full Changelog: [v0.0.1...v0.1.0](https://github.com/anthalehq/anthale-node/compare/v0.0.1...v0.1.0)
