@@ -1,6 +1,6 @@
 {
   "name": "anthale-mcp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The official MCP Server for the Anthale API",
   "author": "Anthale <>",
   "types": "dist/index.d.ts",
