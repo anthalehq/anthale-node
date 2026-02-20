@@ -8,7 +8,7 @@ const client = new Anthale({
 });
 
 describe('resource policies', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('enforce: only required params', async () => {
     const responsePromise = client.organizations.policies.enforce('a90e34d6-41af-432f-a6ae-046598df4539', {
       direction: 'input',
@@ -23,7 +23,7 @@ describe('resource policies', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('enforce: required and optional params', async () => {
     const response = await client.organizations.policies.enforce('a90e34d6-41af-432f-a6ae-046598df4539', {
       direction: 'input',
