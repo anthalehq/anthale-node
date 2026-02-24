@@ -60,7 +60,7 @@ $ yarn link anthale
 # With pnpm
 $ pnpm link --global
 $ cd ../my-package
-$ pnpm link -—global anthale
+$ pnpm link --global anthale
 ```
 
 ## Running tests
