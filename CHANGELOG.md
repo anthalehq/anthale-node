@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.1 (2026-03-02)
+
+Full Changelog: [v0.2.0...v0.2.1](https://github.com/anthalehq/anthale-node/compare/v0.2.0...v0.2.1)
+
+### Chores
+
+* update SDK settings ([3ec9d47](https://github.com/anthalehq/anthale-node/commit/3ec9d47e6b426becf64a1f31b1e8b81138f7d2fe))
+* update SDK settings ([e8a556f](https://github.com/anthalehq/anthale-node/commit/e8a556f70656de0e98b5b4f728e5df22038ca9a4))
+
 ## 0.2.0 (2026-03-02)
 
 Full Changelog: [v0.1.1...v0.2.0](https://github.com/anthalehq/anthale-node/compare/v0.1.1...v0.2.0)
