@@ -2,7 +2,7 @@
   "name": "anthale",
   "version": "0.1.1",
   "description": "The official TypeScript library for the Anthale API",
-  "author": "Anthale <>",
+  "author": "Anthale <contact@anthale.com>",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "type": "commonjs",
