@@ -1,6 +1,7 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
 import { APIResource } from '../../core/resource';
+import * as PoliciesAPI from './policies';
 import { APIPromise } from '../../core/api-promise';
 import { RequestOptions } from '../../internal/request-options';
 import { path } from '../../internal/utils/path';
@@ -38,13 +39,18 @@ export class Policies extends APIResource {
 }
 
 /**
+ * Enum representing possible policy enforcement result actions.
+ */
+export type PolicyEnforcementResultAction = 'block' | 'redact' | 'detect' | 'allow';
+
+/**
  * Policy enforcement response schema.
  */
 export interface PolicyEnforceResponse {
   /**
    * Overall action decided by the policy (allow, detect, redact, block).
    */
-  action: 'block' | 'redact' | 'detect' | 'allow';
+  action: PolicyEnforcementResultAction;
 
   /**
    * Identifier of the policy enforcer that processed the request.
@@ -70,7 +76,7 @@ export namespace PolicyEnforceResponse {
     /**
      * Action suggested by this guardrail (allow, detect, redact, block).
      */
-    action: 'block' | 'redact' | 'detect' | 'allow';
+    action: PoliciesAPI.PolicyEnforcementResultAction;
 
     /**
      * Guardrail key that produced this evaluation.
@@ -122,7 +128,7 @@ export namespace PolicyEnforceResponse {
     /**
      * Action suggested by this guardrail (allow, detect, redact, block).
      */
-    action: 'block' | 'redact' | 'detect' | 'allow';
+    action: PoliciesAPI.PolicyEnforcementResultAction;
 
     /**
      * Guardrail key that produced this evaluation.
@@ -179,7 +185,7 @@ export namespace PolicyEnforceResponse {
     /**
      * Action suggested by this guardrail (allow, detect, redact, block).
      */
-    action: 'block' | 'redact' | 'detect' | 'allow';
+    action: PoliciesAPI.PolicyEnforcementResultAction;
 
     /**
      * Guardrail key that produced this evaluation.
@@ -258,7 +264,7 @@ export namespace PolicyEnforceResponse {
     /**
      * Action suggested by this guardrail (allow, detect, redact, block).
      */
-    action: 'block' | 'redact' | 'detect' | 'allow';
+    action: PoliciesAPI.PolicyEnforcementResultAction;
 
     /**
      * Guardrail key that produced this evaluation.
@@ -367,6 +373,7 @@ export namespace PolicyEnforceParams {
 
 export declare namespace Policies {
   export {
+    type PolicyEnforcementResultAction as PolicyEnforcementResultAction,
     type PolicyEnforceResponse as PolicyEnforceResponse,
     type PolicyEnforceParams as PolicyEnforceParams,
   };
