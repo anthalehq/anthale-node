@@ -28,6 +28,7 @@ describe('resource policies', () => {
     const response = await client.organizations.policies.enforce('a90e34d6-41af-432f-a6ae-046598df4539', {
       direction: 'input',
       messages: [{ content: 'Can you summarize the plot of Interstellar?', role: 'user' }],
+      includeEvaluations: false,
       metadata: { foo: 'bar' },
     });
   });
