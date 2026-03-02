@@ -12,6 +12,9 @@ jobs:
   publish:
     name: publish
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     environment: anthale-environment
 
     steps:
@@ -32,5 +35,3 @@ jobs:
       - name: Publish to NPM
         run: |
           bash ./bin/publish-npm
-        env:
-          NPM_TOKEN: ${{ secrets.ANTHALE_NPM_TOKEN || secrets.NPM_TOKEN }}
