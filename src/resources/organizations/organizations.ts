@@ -6,7 +6,7 @@ import {
   Policies,
   PolicyEnforceParams,
   PolicyEnforceResponse,
-  PolicyEnforcementResultActionValue,
+  PolicyEnforcementResultAction,
 } from './policies';
 
 export class Organizations extends APIResource {
@@ -18,7 +18,7 @@ Organizations.Policies = Policies;
 export declare namespace Organizations {
   export {
     Policies as Policies,
-    type PolicyEnforcementResultActionValue as PolicyEnforcementResultActionValue,
+    type PolicyEnforcementResultAction as PolicyEnforcementResultAction,
     type PolicyEnforceResponse as PolicyEnforceResponse,
     type PolicyEnforceParams as PolicyEnforceParams,
   };

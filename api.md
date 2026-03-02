@@ -4,7 +4,7 @@
 
 Types:
 
-- <code><a href="./src/resources/organizations/policies.ts">PolicyEnforcementResultActionValue</a></code>
+- <code><a href="./src/resources/organizations/policies.ts">PolicyEnforcementResultAction</a></code>
 - <code><a href="./src/resources/organizations/policies.ts">PolicyEnforceResponse</a></code>
 
 Methods:

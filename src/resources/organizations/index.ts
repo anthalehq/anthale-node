@@ -3,7 +3,7 @@
 export { Organizations } from './organizations';
 export {
   Policies,
-  type PolicyEnforcementResultActionValue,
+  type PolicyEnforcementResultAction,
   type PolicyEnforceResponse,
   type PolicyEnforceParams,
 } from './policies';

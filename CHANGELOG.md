@@ -1,5 +1,37 @@
 # Changelog
 
+## 0.2.0 (2026-03-02)
+
+Full Changelog: [v0.1.1...v0.2.0](https://github.com/anthalehq/anthale-node/compare/v0.1.1...v0.2.0)
+
+### Features
+
+* **api:** api update ([17a7951](https://github.com/anthalehq/anthale-node/commit/17a79514edb892256efdbf706f571fc99440bd89))
+* **api:** manual updates ([44dd474](https://github.com/anthalehq/anthale-node/commit/44dd474f8ba126836b8436244fb0432920cb4845))
+* **api:** manual updates ([9f63502](https://github.com/anthalehq/anthale-node/commit/9f635029fd59fc48f3d2836edcb56dbc05b97556))
+* **api:** manual updates ([13f7306](https://github.com/anthalehq/anthale-node/commit/13f7306385657a182504d6dc17112fd5aebd1b54))
+
+
+### Bug Fixes
+
+* **client:** avoid memory leak with abort signals ([2d6dc67](https://github.com/anthalehq/anthale-node/commit/2d6dc677c1ba504eca7efc37bc82d54b2a23de33))
+* **client:** avoid removing abort listener too early ([15285d6](https://github.com/anthalehq/anthale-node/commit/15285d65e85ae2fa8f6dd659c59b7ab28999e13d))
+* **docs/contributing:** correct pnpm link command ([b4bf547](https://github.com/anthalehq/anthale-node/commit/b4bf5475f4fd1757df312ba2870d351584b2cf9b))
+
+
+### Chores
+
+* **ci:** upgrade `actions/github-script` ([6a710de](https://github.com/anthalehq/anthale-node/commit/6a710de114169dbe610286e24b554a5bd5e511cb))
+* **client:** do not parse responses with empty content-length ([5b05ab7](https://github.com/anthalehq/anthale-node/commit/5b05ab7ff4891639d712cd22d3781d4211aa6499))
+* **client:** restructure abort controller binding ([466b1c1](https://github.com/anthalehq/anthale-node/commit/466b1c130c5a2a4e88a9438d2930b12a6410e4f4))
+* **internal/client:** fix form-urlencoded requests ([8b97ef3](https://github.com/anthalehq/anthale-node/commit/8b97ef34135b751016d27e3bd2ae40eef47c50b4))
+* **internal:** avoid type checking errors with ts-reset ([eee4da2](https://github.com/anthalehq/anthale-node/commit/eee4da293cc4c3a19e0b1c7239323af8d87f7e0d))
+* **internal:** move stringifyQuery implementation to internal function ([08f6128](https://github.com/anthalehq/anthale-node/commit/08f61285fa101090ddeff85a8d365e436ab6b753))
+* **internal:** remove mock server code ([6d8b7e1](https://github.com/anthalehq/anthale-node/commit/6d8b7e1b6d3a1788e7d13e4bc83ca8851d8c1227))
+* **internal:** upgrade pnpm ([e760ab8](https://github.com/anthalehq/anthale-node/commit/e760ab89a1032c534ee45ae2f565ef614401a36b))
+* **internal:** upgrade pnpm version ([2535b5e](https://github.com/anthalehq/anthale-node/commit/2535b5e5b791f0085c53299ac772c7034ca3c081))
+* update mock server docs ([5633dd8](https://github.com/anthalehq/anthale-node/commit/5633dd840a0bf34223aeb2303946fd2aeb587787))
+
 ## 0.1.1 (2026-01-19)
 
 Full Changelog: [v0.1.0...v0.1.1](https://github.com/anthalehq/anthale-node/compare/v0.1.0...v0.1.1)
