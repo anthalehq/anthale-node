@@ -6,6 +6,9 @@ import { APIPromise } from '../../core/api-promise';
 import { RequestOptions } from '../../internal/request-options';
 import { path } from '../../internal/utils/path';
 
+/**
+ * Policy lifecycle management.
+ */
 export class Policies extends APIResource {
   /**
    * Evaluates a set of messages against the specified policy and returns guardrail
