@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.4.0 (2026-03-05)
+
+Full Changelog: [v0.3.0...v0.4.0](https://github.com/anthalehq/anthale-node/compare/v0.3.0...v0.4.0)
+
+### Features
+
+* implement openai integration ([d2ec5d3](https://github.com/anthalehq/anthale-node/commit/d2ec5d348172878ebf240f46b85a0066211f86c0))
+
+
+### Chores
+
+* **internal:** codegen related update ([54dd025](https://github.com/anthalehq/anthale-node/commit/54dd0257688c1a0a6bf9102cc58e4724445f2b54))
+
 ## 0.3.0 (2026-03-05)
 
 Full Changelog: [v0.2.1...v0.3.0](https://github.com/anthalehq/anthale-node/compare/v0.2.1...v0.3.0)
