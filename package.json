@@ -28,9 +28,13 @@
   },
   "dependencies": {},
   "peerDependencies": {
+    "langchain": "^1.2.28",
     "openai": "^6.25.0"
   },
   "peerDependenciesMeta": {
+    "langchain": {
+      "optional": true
+    },
     "openai": {
       "optional": true
     }
@@ -57,6 +61,7 @@
     "tslib": "^2.8.1",
     "typescript": "5.8.3",
     "typescript-eslint": "8.31.1",
+    "langchain": "^1.2.28",
     "openai": "^6.25.0"
   },
   "exports": {
