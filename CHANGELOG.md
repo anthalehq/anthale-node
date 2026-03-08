@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.4.1 (2026-03-08)
+
+Full Changelog: [v0.4.0...v0.4.1](https://github.com/anthalehq/anthale-node/compare/v0.4.0...v0.4.1)
+
+### Bug Fixes
+
+* **client:** preserve URL params already embedded in path ([db51d09](https://github.com/anthalehq/anthale-node/commit/db51d09ad1c574b63702bb95cd841025f2b5d990))
+
+
+### Chores
+
+* **ci:** skip uploading artifacts on stainless-internal branches ([431a5c5](https://github.com/anthalehq/anthale-node/commit/431a5c5311303471c96fd020cbd3a5710208c931))
+* **internal:** codegen related update ([a6a33e0](https://github.com/anthalehq/anthale-node/commit/a6a33e008f3b4f879585d31fd32a84958ead1876))
+
 ## 0.4.0 (2026-03-05)
 
 Full Changelog: [v0.3.0...v0.4.0](https://github.com/anthalehq/anthale-node/compare/v0.3.0...v0.4.0)
