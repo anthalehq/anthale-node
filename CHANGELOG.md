@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.2 (2026-03-17)
+
+Full Changelog: [v0.4.1...v0.4.2](https://github.com/anthalehq/anthale-node/compare/v0.4.1...v0.4.2)
+
+### Chores
+
+* **internal:** tweak CI branches ([2136387](https://github.com/anthalehq/anthale-node/commit/2136387f1110af6c269dc129a52509f87a8b4e1d))
+
 ## 0.4.1 (2026-03-11)
 
 Full Changelog: [v0.4.0...v0.4.1](https://github.com/anthalehq/anthale-node/compare/v0.4.0...v0.4.1)
