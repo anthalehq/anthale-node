@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.3 (2026-03-18)
+
+Full Changelog: [v0.4.2...v0.4.3](https://github.com/anthalehq/anthale-node/compare/v0.4.2...v0.4.3)
+
+### Chores
+
+* add project documentation and templates ([98e888e](https://github.com/anthalehq/anthale-node/commit/98e888e39bb483e197bda1f497b3b5c22cf5b010))
+
 ## 0.4.2 (2026-03-17)
 
 Full Changelog: [v0.4.1...v0.4.2](https://github.com/anthalehq/anthale-node/compare/v0.4.1...v0.4.2)
