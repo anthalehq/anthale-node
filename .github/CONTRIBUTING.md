@@ -66,36 +66,19 @@ $ pnpm link --global anthale
 ## Running tests
 
 ```sh
-$ pnpm run test
+make test
 ```
 
 ## Linting and formatting
 
-This repository uses [prettier](https://www.npmjs.com/package/prettier) and
-[eslint](https://www.npmjs.com/package/eslint) to format the code in the repository.
-
 To lint:
 
 ```sh
-$ pnpm lint
+make lint
 ```
 
 To format and fix all lint issues automatically:
 
 ```sh
-$ pnpm fix
+make format
 ```
-
-## Publishing and releases
-
-Changes made to this repository via the automated release PR pipeline should publish to npm automatically. If
-the changes aren't made through the automated pipeline, you may want to make releases manually.
-
-### Publish with a GitHub workflow
-
-You can release to package managers by using [the `Publish NPM` GitHub action](https://www.github.com/anthalehq/anthale-node/actions/workflows/publish-npm.yml). This requires a setup organization or repository secret to be set up.
-
-### Publish manually
-
-If you need to manually release a package, you can run the `bin/publish-npm` script with an `NPM_TOKEN` set on
-the environment.
