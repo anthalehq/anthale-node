@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.4 (2026-03-24)
+
+Full Changelog: [v0.4.3...v0.4.4](https://github.com/anthalehq/anthale-node/compare/v0.4.3...v0.4.4)
+
+### Chores
+
+* **internal:** update gitignore ([c7d7e4c](https://github.com/anthalehq/anthale-node/commit/c7d7e4c5491b7f9663bc834876cdeba4210bf3e7))
+
 ## 0.4.3 (2026-03-18)
 
 Full Changelog: [v0.4.2...v0.4.3](https://github.com/anthalehq/anthale-node/compare/v0.4.2...v0.4.3)
