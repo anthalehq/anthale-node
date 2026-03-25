@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.5 (2026-03-25)
+
+Full Changelog: [v0.4.4...v0.4.5](https://github.com/anthalehq/anthale-node/compare/v0.4.4...v0.4.5)
+
+### Chores
+
+* **ci:** skip lint on metadata-only changes ([66491f6](https://github.com/anthalehq/anthale-node/commit/66491f60701e9715afff5fdb6aef0a8d5eeca89e))
+
 ## 0.4.4 (2026-03-24)
 
 Full Changelog: [v0.4.3...v0.4.4](https://github.com/anthalehq/anthale-node/compare/v0.4.3...v0.4.4)
