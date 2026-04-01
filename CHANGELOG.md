@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.6 (2026-04-01)
+
+Full Changelog: [v0.4.5...v0.4.6](https://github.com/anthalehq/anthale-node/compare/v0.4.5...v0.4.6)
+
+### Bug Fixes
+
+* **internal:** gitignore generated `oidc` dir ([f4fd72b](https://github.com/anthalehq/anthale-node/commit/f4fd72b001b73aa7ae1b526b17e7f3cf1007dbc6))
+
 ## 0.4.5 (2026-03-25)
 
 Full Changelog: [v0.4.4...v0.4.5](https://github.com/anthalehq/anthale-node/compare/v0.4.4...v0.4.5)
