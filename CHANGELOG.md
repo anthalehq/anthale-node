@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.7 (2026-04-21)
+
+Full Changelog: [v0.4.6...v0.4.7](https://github.com/anthalehq/anthale-node/compare/v0.4.6...v0.4.7)
+
+### Chores
+
+* **ci:** remove release-doctor workflow ([25be9fb](https://github.com/anthalehq/anthale-node/commit/25be9fbf9aea1b0a117764cdad8fbebe31dfa861))
+* **internal:** codegen related update ([be8b3a4](https://github.com/anthalehq/anthale-node/commit/be8b3a440da08b72c41d6178208ebc6b49315d75))
+
 ## 0.4.6 (2026-04-01)
 
 Full Changelog: [v0.4.5...v0.4.6](https://github.com/anthalehq/anthale-node/compare/v0.4.5...v0.4.6)
