@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.5.0 (2026-04-28)
+
+Full Changelog: [v0.4.7...v0.5.0](https://github.com/anthalehq/anthale-node/compare/v0.4.7...v0.5.0)
+
+### Features
+
+* support setting headers via env ([26769d0](https://github.com/anthalehq/anthale-node/commit/26769d08105f6e560c8bc0f63f4e028a3bcc0d54))
+
+
+### Chores
+
+* **internal:** codegen related update ([afdad52](https://github.com/anthalehq/anthale-node/commit/afdad52ac3978b1dd8de18814a56a1f0499e82be))
+* **internal:** more robust bootstrap script ([acaebb6](https://github.com/anthalehq/anthale-node/commit/acaebb60ded9c430bbe61999af1a127a923c18a2))
+
 ## 0.4.7 (2026-04-21)
 
 Full Changelog: [v0.4.6...v0.4.7](https://github.com/anthalehq/anthale-node/compare/v0.4.6...v0.4.7)
